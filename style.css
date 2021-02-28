@@ -1,0 +1,247 @@
+p#elparrafo{
+    color: green
+}
+p.rojo{
+    color: red;
+}
+h2,h3{
+    color: yellow;
+}
+div p{
+    color: lightcoral
+}
+div span{
+    color: turquoise;
+}
+div p span{
+    color: brown;
+}
+div + p{
+    color: purple;
+}
+a[href="http://ciclos.org"]{
+    color: green;
+}
+a[href*="ciclos"]{
+    color: lightpink;
+}
+div.contenedor{
+    border: 1px blue solid;
+}
+div p:first-child{
+    color: pink;
+}
+a:visited{
+    background-color: red;
+}
+a:link{
+    background-color: lightblue;
+}
+p.sobre:hover{
+    background-color: lightyellow;
+    font-weight: bold;
+}
+p.sobre:active{
+    background-color: blue;
+    color: red;
+}
+input:active{
+    background-color: lightblue;
+}
+input:focus{
+    color: coral;
+    background-color: lightgray;
+}
+p.lorem:first-line{
+    color: red;
+}
+p.antes::before{
+    content: "(COVID19)";
+font-weight: bold;
+}
+p.despues::after{
+content: "(Recuerda esto)";
+font-weight: bold;
+background-color: lightgreen;
+}
+h4 {
+    counter-reset: cuenta_ciclos 5; 
+}
+p.ciclos::before{
+    content: counter(cuenta_ciclos) " .";
+    counter-increment: cuenta_ciclos ;
+}
+
+
+
+
+body{
+    background-image: url("img/fondoordenador.jpg");
+    background-repeat: no-repeat;
+    background-position: top, center;
+    background-size: 110%;
+}
+p.enlace{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+h1.unidades{
+    background-color: darkseagreen;
+    text-align: center;
+    color: seagreen;
+}
+p.uno{
+    font-size: 1cm;
+
+}
+p.dos{
+    font-size: 2cm;
+
+}
+p.tres{
+    font-size: 3cm;
+
+}
+p.uun{
+    font-size: 1mm;
+    background-color: lightcoral;
+}
+p.ddos{
+    font-size: 2mm;
+    background-color: lightcoral;
+}
+p.pul{
+    font-size: 1in;
+}
+p.ppul{
+    font-size: 2in;
+}
+p.pix{
+    font-size: 20px;
+}
+p.ppix{
+    font-size: 40pc;
+}
+p.rel{
+    font-size: 200%;
+    color: darkred;
+}
+p.paf{
+    color: cornflowerblue;
+}
+hr{
+    width: 50%;
+}
+p.paaf{
+    color: crimson;
+    font-size: 200%;
+}
+p.paaaf{
+    color: cyan;
+    font-size: 50%;
+}
+div.cuatro{
+    font-size: 200%;
+}
+p.cuatro{
+    font-size: 200%;
+}
+p.em{
+    font-family: serif;
+    border: lightcoral 1em solid;
+}
+p.ex{
+    font-family: sans-serif;
+    border: lightgreen 1ex solid;
+}
+p.ch{
+    font-family: courier;
+    border: lightslategray 1ch solid;
+}
+body{
+    font-size: 200%;
+}
+p.rem{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: tomato 1rem solid;
+}
+p.view{
+    font-family: serif;
+    border: red 1rem solid;
+    background-color: yellow;
+    width: 100vw;
+}
+p.vie{
+    font-family: serif;
+    border: red 1rem solid;
+    background-color: yellow;
+width: 50vw;
+height: 50vh;
+}
+p.vmin{
+    font-family: serif;
+    border: red 1rem solid;
+    background-color: yellow;
+width: 50vmin;
+height: 50vmin;
+}
+p.vmax{
+    font-family: serif;
+    border: red 1rem solid;
+    background-color: yellow;
+width: 70vmax;
+height: 70vmax;
+}
+
+
+
+
+
+
+
+
+div.uno{
+    line-height: 100%;
+    font-family: 'poppins';
+font-size: larger;
+}
+p.dos{
+font-size: larger;
+color: coral;
+}
+p.tres{
+font-size: medium;
+color: crimson;
+}
+p.cuatro{
+font-size: larger;
+color: darkgoldenrod;
+}
+p.cinco{
+    font-weight: lighter;
+    color: darkgreen;
+}
+p.seis{
+    font-weight: bolder;
+    background-color: darkkhaki;
+}
+p.siete{
+    font-style: oblique;
+
+}
+p.ocho{
+    font-style: normal;
+    font-family: 'Parisienne', cursive;
+}
+p.nueve{
+    font-style: italic;
+    font-family: 'Indie Flower', cursive;
+}
+
